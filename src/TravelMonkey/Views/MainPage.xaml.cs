@@ -47,5 +47,10 @@ namespace TravelMonkey.Views
             await Navigation.PushModalAsync(new TranslationResultPage(TranslateTextEntry.Text));
             TranslateTextEntry.Text = "";
         }
+
+        private async void CurrentDestination_Tapped(object sender, EventArgs e)
+        {
+            await Navigation.PushModalAsync(new WeatherPage(_mainPageViewModel.CurrentDestination));
+        }
     }
 }

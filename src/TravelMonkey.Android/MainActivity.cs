@@ -17,6 +17,7 @@ namespace TravelMonkey.Droid
 
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
+            Xamarin.FormsMaps.Init(this, savedInstanceState);
             Acr.UserDialogs.UserDialogs.Init(this);
 
             LoadApplication(new App());

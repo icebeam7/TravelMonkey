@@ -18,6 +18,7 @@
     <PackageReference Include="Acr.UserDialogs" Version="7.1.0.442" />
     <PackageReference Include="Microsoft.Azure.CognitiveServices.Vision.ComputerVision" Version="5.0.0" />
     <PackageReference Include="Microsoft.Azure.CognitiveServices.Search.ImageSearch" Version="2.0.0" />
+    <PackageReference Include="Xamarin.Forms.Maps" Version="4.5.0.725" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
@@ -30,6 +31,10 @@
     <Folder Include="Data\" />
     <Folder Include="Models\CognitiveServices\" />
     <Folder Include="Converters\" />
+    <Folder Include="Models\AzureMaps\" />
+    <Folder Include="Services\AzureMaps\" />
+    <Folder Include="ViewModels\AzureMaps\" />
+    <Folder Include="CustomControls\" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Resources\Fonts\Lato-Black.ttf" />
